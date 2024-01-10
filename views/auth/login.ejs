@@ -1,0 +1,28 @@
+<% layout('layouts/boilerplate') %>
+
+<div class="row" id="background-signuppage">
+    <div class="loginformposition">
+        <div class="col-md-4 mx-auto" id="signuppage">
+        <%- include('../partials/flash') %>
+        <h1 class="display-6">login up</h1>
+        <form action="/login" method="POST">
+             <div class="mb-3">
+            <label class="form-label" for="username"> Username:</label>
+            <input type="form-control" type="text" name="username" id="username" placeholder="username">
+             </div>
+             <div class="mb-3">
+            <label class="form-label" for="password"> Password:</label>
+            <input type="form-control" type="password" name="password" id="password" placeholder="Password">
+             </div>
+            <button type="submit" class="btn btn-sm btn-success">Loginup</button>
+            <p class="fw-light mt-2"> dont have an account,<a href="/register">signup</a></p>
+         </form>
+    
+    
+    </div>
+</div>
+    </div>
+    
+
+</body>
+</html> 

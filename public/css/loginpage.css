@@ -1,0 +1,17 @@
+#signuppage{
+    border: 1px black solid;
+   background-color: seashell;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding: 40px 60px 40px 60px;
+    margin-bottom: auto;
+    background-image: url('');
+}
+.background-signuppage{
+   
+    
+}
+
+/* .loginformposition{
+    
+} */

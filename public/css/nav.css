@@ -1,0 +1,23 @@
+/* body{
+    position: absolute;
+}
+#navbarmain{
+    
+    overflow: hidden;
+        background-color: #666666;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    
+    height: 60px;
+    background-color: lightblue;
+
+} */
+#navbarmain{
+    background-color: burlywood;
+    color: cyan;
+    height: 60px;
+}
+.productdivcolour{
+    background-color: sandybrown;
+}
